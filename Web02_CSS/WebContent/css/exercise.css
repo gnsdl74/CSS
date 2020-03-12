@@ -1,0 +1,85 @@
+@charset "UTF-8";
+div {
+	display: inline-block;
+}
+.groupbar {
+	line-height: 50px;
+	position: relative;
+	left: 20%;
+}
+.navbar {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sitename {
+	color: black;
+	width: 120px;
+	margin: 10px;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.menubar{
+	padding: 0 15px;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.menu_list {
+	list-style: none;
+	padding: 0px;
+}
+
+.menu_list li {
+	display: inline-block;
+}
+
+.menu_home {
+	width: 100%;
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-family: Constantia, sans-serif;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.menu_home:hover {
+	color: darkgrey;
+}
+
+.menu_rest {
+	width: 100%;
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-family: Constantia, sans-serif;
+	transition: 0.3s;
+}
+
+.menu_rest:hover {
+	color: darkgrey;
+}
+
+.home {
+	padding: 0 15px;
+}
+
+.span_font {
+	padding: 0 15px;
+}
+
+.member_check {
+	list-style: none;
+	padding: 0px;
+}
+
+.member_check li {
+	display: inline-block;
+}

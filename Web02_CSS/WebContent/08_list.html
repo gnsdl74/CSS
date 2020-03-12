@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>List</title>
+
+<style type="text/css">
+#menu {
+	list-style-type: none;
+}
+
+/* 부모요소의 자식요소 접근 */
+#menu li {
+	display: inline-block; /* 요소를 한줄에 표현하고 각각을 블록형태로 묶음 */
+	border: 1px solid black;
+	width: 80px;
+	text-align: center;
+	background: darkgray;
+	color: white;
+}
+
+#menu li:hover { /* 해당 요소의 영역에 마우스를 가져가면 */
+	background-color: red;
+}
+
+</style>
+
+</head>
+<body>
+	<h1>CSS List</h1>
+	<ul>
+		<li>Java</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+	</ul>
+	<hr>
+	<ul id="menu">
+		<li>Java</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+	</ul>
+</body>
+</html>
